@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22fd6b2d-03cc-4330-89d1-f9d3430d17d1" name="Default" comment="" />
+    <ignored path="bc_module_kenya.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="bc_module_kenya" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queries.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sql/queries.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1921">
+              <caret line="112" column="20" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/config.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_conn.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/db_conn.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="86" column="2" selection-start-line="86" selection-start-column="2" selection-end-line="86" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/service.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helper_fns.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/helper_fns.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gen_tests.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/gen_tests.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rmq_conn.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/rmq_conn.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bc_module.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bc_module.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="39" column="66" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/bc_module_kenya/schema_create.clj" />
+        <option value="$PROJECT_DIR$/src/bc_module_kenya/rmq_conn.clj" />
+        <option value="$PROJECT_DIR$/src/bc_module_kenya/gen_tests.clj" />
+        <option value="$PROJECT_DIR$/resources/queries.sql" />
+        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/src/bc_module_kenya/helper_fns.clj" />
+        <option value="$PROJECT_DIR$/bc_module.config" />
+        <option value="$PROJECT_DIR$/resources/sql/queries.sql" />
+        <option value="$PROJECT_DIR$/src/bc_module_kenya/service.clj" />
+        <option value="$PROJECT_DIR$/src/bc_module_kenya/db_conn.clj" />
+        <option value="$PROJECT_DIR$/src/bc_module_kenya/config.clj" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1608" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="916" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bc_module_kenya" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bc_module_kenya" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bc_module_kenya" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$3/SQL Dialects" value="PostgreSQL" />
+  </component>
+  <component name="ReplState" timestamp="1484650653663">{:repl-history {:ide [], :local [&quot;(subs (str (delocalize_msisdn 624324)) 1 4)&quot; &quot;(delocalize_msisdn 624324)&quot; &quot;(str (delocalize_msisdn 624324))&quot; &quot;(subs (str (delocalize_msisdn 624324)) 0 4)&quot; &quot;(ns bc-module-kenya.gen-tests\n  ^{:author \&quot;pmuchina@mo-de.com\&quot;}\n  (:require [clojure.test.check.generators :as gen]\n            [clojure.test.check :as tc]\n            [clojure.test.check.properties :as prop]\n            [bc-module-kenya.config :as config]\n            )\n  )&quot; &quot;(defn delocalize_msisdn\n  [msisdn]\n  (try\n    (str config/country_code msisdn)\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(def property\n  (prop/for-all [v (gen/choose 450000 900000)]\n                (= (subs (str (delocalize_msisdn v)) 0 3) (str \&quot;254\&quot;))\n                ))&quot; &quot;(tc/quick-check 100 property)&quot; &quot;(parse-string \&quot;{\\\&quot;foo\\\&quot;:\\\&quot;bar\\\&quot;}\&quot;)&quot; &quot;(type details)&quot; &quot;(\&quot;foo\&quot; details)&quot; &quot;(details \&quot;bar\&quot;)&quot; &quot;(ns bc-module-kenya.helper-fns\n  ^{:author \&quot;pmuchina@mo-de.com\&quot;}\n  (:require [bc-module-kenya.config :as config]\n            [clojure.tools.logging :as log]\n            [cheshire.core :refer :all]\n            [clj-http.client :as req]\n            )\n  )&quot; &quot;(def details (parse-string \&quot;{\\\&quot;foo\\\&quot;:\\\&quot;bar\\\&quot;}\&quot;))&quot; &quot;(details \&quot;foo\&quot;)&quot; &quot;(defn send_to_kannel\n  [obj]\n  ;;get url from config and populate msisdn value to get url\n  (def details (parse-string obj))\n  (let [url (format config/kannel-url config/kannel-user config/kannel-pass (obj :msidn) (obj :message) config/from)]\n    ;;send request\n    (println url)\n    ;;(log/debug url)\n    ;;(req/get url)\n    )\n  )&quot; &quot;(message :msisdn)&quot; &quot;(:msisdn message)&quot; &quot;(def details (parse-string obj))&quot; &quot;(defn send_to_kannel\n  [obj]\n  ;;get url from config and populate msisdn value to get url\n  (def details (parse-string obj))\n  (let [url (format config/kannel-url config/kannel-user config/kannel-pass (:msisdn obj) (:message obj) config/from)]\n    ;;send request\n    (println url)\n    ;;(log/debug url)\n    ;;(req/get url)\n    )\n  )&quot; &quot;(def details (parse-string message))&quot; &quot;details&quot; &quot;(defn send_to_kannel\n  [obj]\n  ;;get url from config and populate msisdn value to get url\n  (def details (parse-string obj))\n  (let [url (format config/kannel-url config/kannel-user config/kannel-pass (:msisdn details) (:message details) config/from)]\n    ;;send request\n    (println url)\n    ;;(log/debug url)\n    ;;(req/get url)\n    )\n  )&quot; &quot;(defn send_to_kannel\n  [obj]\n  ;;get url from config and populate msisdn value to get url\n  (def details (parse-string obj))\n  (let [url (format config/kannel-url config/kannel-user config/kannel-pass (details :msisdn ) (details :message ) config/from)]\n    ;;send request\n    (println url)\n    ;;(log/debug url)\n    ;;(req/get url)\n    )\n  )&quot; &quot;(def message (generate-string {:session-id 1235 :request-id 123 :msisdn 123 :message \&quot;Hello my old friend\&quot; :flash? false :from \&quot;Airtel\&quot;}))&quot; &quot;(def details (generate-string {:session-id 1235 :request-id 123 :msisdn 123 :message \&quot;Hello my old friend\&quot; :flash? false :from \&quot;Airtel\&quot;}))&quot; &quot;(details :msisdn )&quot; &quot;(parse-string details)&quot; &quot;(def mess (parse-string details))&quot; &quot;(mess :msisdn)&quot; &quot;(:msisdn mess)&quot; &quot;(type mess)&quot; &quot;(get mess :msisdn)&quot; &quot;(get mess \&quot;msisdn\&quot;)&quot; &quot;(mess \&quot;msisdn\&quot;)&quot; &quot;(\&quot;msisdn\&quot; mess )&quot; &quot;(defn send_to_kannel\n  [obj]\n  ;;get url from config and populate msisdn value to get url\n  (def details (parse-string obj))\n  (let [url (format config/kannel-url config/kannel-user config/kannel-pass (details \&quot;msisdn\&quot;) (url-encode (details \&quot;message\&quot;)) config/from)]\n    ;;send request\n    (println url)\n    ;;(log/debug url)\n    ;;(req/get url)\n    )\n  )&quot; &quot;(defn send_to_kannel\n  [obj]\n  ;;get url from config and populate msisdn value to get url\n  (def details (parse-string obj))\n  (let [url (format config/kannel-url config/kannel-user config/kannel-pass (details \&quot;msisdn\&quot;) (details \&quot;message\&quot;) config/from)]\n    ;;send request\n    (println url)\n    ;;(log/debug url)\n    ;;(req/get url)\n    )\n  )&quot; &quot;(ns bc-module-kenya.helper-fns\n  ^{:author \&quot;pmuchina@mo-de.com\&quot;}\n  (:require [bc-module-kenya.config :as config]\n            [clojure.tools.logging :as log]\n            [cheshire.core :refer :all]\n            [clj-http.client :as req]\n            [clj-http.uti :as en]\n            )\n  )&quot; &quot;(ns bc-module-kenya.helper-fns\n  ^{:author \&quot;pmuchina@mo-de.com\&quot;}\n  (:require [bc-module-kenya.config :as config]\n            [clojure.tools.logging :as log]\n            [cheshire.core :refer :all]\n            [clj-http.client :as req]\n            [clj-http.util :as en]\n            )\n  )&quot; &quot;(def messgae (generate-string {:session-id 1235 :request-id 123 :msisdn 123 :message \&quot;Hello my old friend\&quot; :flash? false :from \&quot;Airtel\&quot;}))&quot; &quot;(defn send_to_kannel\n  [obj]\n  ;;get url from config and populate msisdn value to get url\n  (def details (parse-string obj))\n  (let [url (format config/kannel-url config/kannel-user config/kannel-pass (details \&quot;msisdn\&quot;) (en/url-encode (details \&quot;message\&quot;)) config/from)]\n    ;;send request\n    (println url)\n    ;;(log/debug url)\n    ;;(req/get url)\n    )\n  )&quot; &quot;(send_to_kannel message)&quot; &quot;1&quot; &quot;(- 2 5)&quot; &quot;(def config-map (read-properties \&quot;C:\\\\Users\\\\pmuchina.MO-DE\\\\Desktop\\\\projects\\\\clojure\\\\bc_module_kenya\\\\bc_module.config\&quot; :required [:db-name :db-ip :db-username :db-password :db-port :poll-interval :channel :timezone :from]))&quot; &quot;(ns\n  ^{:author \&quot;pmuchina@mo-de.com\&quot;}\n  bc-module-kenya.config\n  (:require [clojure.tools.logging :as log]\n            )\n  (:use [propertea.core])\n\n  )&quot; &quot;(def config-map (read-properties \&quot;C:\\\\Users\\\\pmuchina.MO-DE\\\\Desktop\\\\projects\\\\clojure\\\\bc_module_kenya\\\\bc_module.config\&quot; :parse-int [:connection-timeout :validation-timeout :idle-timeout :max-lifetime :minimum-idle :maximum-pool-size :queue_port :start_time :stop_time :timezone :message_limit :country_code :poll-interval] :required [:db-name :db-ip :db-username :db-password :db-port :poll-interval :channel :timezone :from]))&quot; &quot;(log/info config-map)&quot; &quot;(println (type (:poll-interval  config-map)))&quot; &quot;(println (type (:queue_host  config-map)))&quot; &quot;(def map {:subscriber_fk 7258217350, :message_type 1, :amount 70})&quot; &quot;(defn make_message\n  [map]\n  (try\n    (doall (do (generate-string {:session-id (:subscriber_fk map) :request-id (:subscriber_fk map) :msisdn (hfns/delocalize_msisdn (:subscriber_fk map)) :message   :flash? false :from config/from}) (delete-sub (:subscriber_fk map)) (log/info (str \&quot;Make message - \&quot; (str map)))))\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(defn make_message\n  [map]\n  (try\n    (doall (do (generate-string {:session-id (:subscriber_fk map) :request-id (:subscriber_fk map) :msisdn (hfns/delocalize_msisdn (:subscriber_fk map))   :flash? false :from config/from}) (delete-sub (:subscriber_fk map)) (log/info (str \&quot;Make message - \&quot; (str map)))))\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(defn make_message\n  [map]\n  (try\n    (doall (do (generate-string {:session-id (:subscriber_fk map) :request-id (:subscriber_fk map) :msisdn (hfns/delocalize_msisdn (:subscriber_fk map)) :message (hfns/get-message (eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map))))) ({:amount (:amount map) :message_type (:message_type map) :subscriber_fk (:subscriber_fk map)}))  :flash? false :from config/from}) (delete-sub (:subscriber_fk map)) (log/info (str \&quot;Make message - \&quot; (str map)))))\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map2)))))&quot; &quot;(hfns/delocalize_msisdn (:subscriber_fk map))&quot; &quot;(hfns/get-message (eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map))))) ({:amount (:amount map) :message-type (:message_type map) :subscriber-fk (:subscriber_fk map)}))&quot; &quot;(eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map)))))&quot; &quot;(str \&quot;config/message_\&quot; (str (:message_type map)))&quot; &quot;(:message_type map)&quot; &quot;(:amount map)&quot; &quot;(def map2 {:subscriber-fk 7258217350, :message-type 1, :amount 70})&quot; &quot;(:subscriber_fk map2)&quot; &quot;(defn make_message\n  [map]\n  (try\n    (doall (do (generate-string {:session-id (:subscriber_fk map) :request-id (:subscriber_fk map) :msisdn (hfns/delocalize_msisdn (:subscriber_fk map)) :message (hfns/get-message (eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map))))) ({:amount (:amount map) :message-type (:message_type map) :subscriber-fk (:subscriber_fk map)}))  :flash? false :from config/from}) (delete-sub (:subscriber_fk map)) (log/info (str \&quot;Make message - \&quot; (str map)))))\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(defn get_subs\n  []\n  (log/info \&quot;Getting subs\&quot;)\n  (try\n    (get-subs {:limit config/message_limit} {:as-arrays? false :row-fn (make_message (first))})\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(defn get_subs\n  []\n  (log/info \&quot;Getting subs\&quot;)\n  (try\n    (get-subs {:limit config/message_limit} {:as-arrays? false :row-fn (first (make_message))})\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(defn get_subs\n  []\n  (log/info \&quot;Getting subs\&quot;)\n  (try\n    (get-subs {:limit config/message_limit} {:as-arrays? false :row-fn identity})\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(defn get_subs\n  []\n  (log/info \&quot;Getting subs\&quot;)\n  (try\n    (jdbc/query conn [\&quot;select subscriber_fk, message_type, amount from tbl_sms_tracker_new limit ?\&quot; config/message_limit]\n                {:as-arrays? false :row-fn make_message})\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(defn get_subs\n  []\n  (log/info \&quot;Getting subs\&quot;)\n  (try\n    (jdbc/query conn [\&quot;select subscriber_fk, message_type, amount from tbl_sms_tracker_new limit ?\&quot; config/message_limit]\n                {:as-arrays? false :row-fn identity})\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(defn get_subs\n  []\n  (log/info \&quot;Getting subs\&quot;)\n  (try\n    (jdbc/query conn [\&quot;select subscriber_fk, message_type, amount from tbl_sms_tracker_new limit ?\&quot; config/message_limit]\n                {:as-arrays? false :row-fn prinln})\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(defn get_subs\n  []\n  (log/info \&quot;Getting subs\&quot;)\n  (try\n    (jdbc/query conn [\&quot;select subscriber_fk, message_type, amount from tbl_sms_tracker_new limit ?\&quot; config/message_limit]\n                {:as-arrays? false :row-fn println})\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(defn get_subs\n  []\n  (log/info \&quot;Getting subs\&quot;)\n  (try\n    (get-subs {:limit config/message_limit} {:as-arrays? false :row-fn println})\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(def map2 {:subscriber_fk 7258217350, :message_type 1, :amount 70})&quot; &quot;(hfns/delocalize_msisdn (:subscriber_fk map2))&quot; &quot;(hfns/get-message (eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map2))))) ({:amount (:amount map2) :message-type (:message_type map2) :subscriber-fk (:subscriber_fk map2)}))&quot; &quot;(defn make_message\n  [map]\n  (try\n    (doall (do (generate-string {:session-id (:subscriber_fk map) :request-id (:subscriber_fk map) :msisdn (hfns/delocalize_msisdn (:subscriber_fk map)) :message (hfns/get-message (eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map))))) {:amount (:amount map) :message-type (:message_type map) :subscriber-fk (:subscriber_fk map)})  :flash? false :from config/from}) (delete-sub (:subscriber_fk map)) (log/info (str \&quot;Make message - \&quot; (str map)))))\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(hfns/get-message (eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map2))))) {:amount (:amount map2) :message-type (:message_type map2) :subscriber-fk (:subscriber_fk map2)})&quot; &quot;(defn make_message\n  [map]\n  (try\n    (do (generate-string {:session-id (:subscriber_fk map) :request-id (:subscriber_fk map) :msisdn (hfns/delocalize_msisdn (:subscriber_fk map)) :message (hfns/get-message (eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map))))) '{:amount (:amount map) :message-type (:message_type map) :subscriber-fk (:subscriber_fk map)})  :flash? false :from config/from}) (delete-sub (:subscriber_fk map)) (log/info (str \&quot;Make message - \&quot; (str map))))\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(generate-string {:session-id (:subscriber_fk map2) :request-id (:subscriber_fk map2) :msisdn (hfns/delocalize_msisdn (:subscriber_fk map2)) :message (hfns/get-message (eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map))))) {:amount (:amount map2) :message-type (:message_type map2) :subscriber-fk (:subscriber_fk map2)})  :flash? false :from config/from})&quot; &quot;(make_message {:subscriber_fk 72582173501, :message_type 1, :amount 75})&quot; &quot;(defn make_message\n  [map]\n  (try\n    (doall (do (generate-string {:session-id (:subscriber_fk map) :request-id (:subscriber_fk map) :msisdn (hfns/delocalize_msisdn (:subscriber_fk map)) :message (eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map)))))  :flash? false :from config/from}) (del_sub (:subscriber_fk map)) (log/info (str \&quot;Make message - \&quot; (str map)))))\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(defn make_message\n  [map]\n  (try\n    (doall (do (generate-string {:session-id (:subscriber_fk map) :request-id (:subscriber_fk map) :msisdn (hfns/delocalize_msisdn (:subscriber_fk map)) :message (eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map)))))  :flash? false :from config/from}) (delete-sub (:subscriber_fk map)) (log/info (str \&quot;Make message - \&quot; (str map)))))\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(def map2 {:subscriber_fk 72582173501, :message_type 1, :amount 75})&quot; &quot;(defn make_message\n  [map]\n  (try\n    (do (generate-string {:session-id (:subscriber_fk map) :request-id (:subscriber_fk map) :msisdn (hfns/delocalize_msisdn (:subscriber_fk map)) :message (hfns/get-message (eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map))))) {:amount (:amount map) :message-type (:message_type map) :subscriber-fk (:subscriber_fk map)})  :flash? false :from config/from}) (delete-sub (:subscriber_fk map)) (log/info (str \&quot;Make message - \&quot; (str map))))\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(make_message map2)&quot; &quot;(generate-string {:session-id (:subscriber_fk map2) :request-id (:subscriber_fk map2) :msisdn (hfns/delocalize_msisdn (:subscriber_fk map2)) :message (hfns/get-message (eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map2))))) {:amount (:amount map2) :message-type (:message_type map2) :subscriber-fk (:subscriber_fk map2)})  :flash? false :from config/from})&quot; &quot;(delete-sub (:subscriber_fk map2))&quot; &quot;(delete-sub {:subscriber_fk (:subscriber_fk map2)})&quot; &quot;(defn make_message\n  [map]\n  (try\n    (do (generate-string {:session-id (:subscriber_fk map) :request-id (:subscriber_fk map) :msisdn (hfns/delocalize_msisdn (:subscriber_fk map)) :message (hfns/get-message (eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map))))) {:amount (:amount map) :message-type (:message_type map) :subscriber-fk (:subscriber_fk map)})  :flash? false :from config/from}) (delete-sub {:subscriber_fk (:subscriber_fk map)}) (log/info (str \&quot;Make message - \&quot; (str map))))\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(defn make_message\n  [map]\n  (try\n    (generate-string {:session-id (:subscriber_fk map)\n                      :request-id (:subscriber_fk map)\n                      :msisdn (hfns/delocalize_msisdn (:subscriber_fk map))\n                      :message (hfns/get-message (eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map))))) {:amount (:amount map) :message-type (:message_type map) :subscriber-fk (:subscriber_fk map)})\n                      :flash? false\n                      :from config/from})\n    (delete-sub! {:subscriber_fk (:subscriber_fk map)})\n    (log/info (str \&quot;Make message - \&quot; (str map)))\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e)))\n    )\n  )&quot; &quot;(ns bc-module-kenya.db-conn\n  ^{:author \&quot;pmuchina@mo-de.com\&quot;}\n  (:require [bc-module-kenya.config :as config]\n            [hikari-cp.core :refer :all]\n            [clojure.java.jdbc :as jdbc]\n            [clojure.tools.logging :as log]\n            [cheshire.core :refer :all]\n            [bc-module-kenya.helper-fns :as hfns]\n            [yesql.core :refer [defqueries]]\n            )\n  )&quot; &quot;(def datasource-options {:auto-commit        true\n                         :read-only          false\n                         :connection-timeout config/connection-timeout\n                         :validation-timeout config/validation-timeout\n                         :idle-timeout       config/idle-timeout\n                         :max-lifetime       config/max-lifetime\n                         :minimum-idle       config/minimum-idle\n                         :maximum-pool-size  config/maximum-pool-size\n                         :pool-name          \&quot;db-pool\&quot;\n                         ;;:adapter          \&quot;postgresql\&quot; --Mutually exclusive with jdbc-url\n                         :username           config/db-username\n                         :password           config/db-password\n                         :database-name      config/db-ip\n                         :server-name        config/db-name\n                         :port-number        (read-string config/db-port)\n                         :jdbc-url           (str \&quot;jdbc:postgresql://\&quot; config/db-ip \&quot;:\&quot; config/db-port \&quot;/\&quot; config/db-name)\n                         :register-mbeans    false})&quot; &quot;(def datasource\n  (make-datasource datasource-options))&quot; &quot;(def conn {:datasource datasource})&quot; &quot;(defqueries \&quot;sql/queries.sql\&quot;\n            {:connection conn})&quot; &quot;(defn db-schema-migrated?\n  \&quot;Check if the schema has been created in database\&quot;\n  []\n  (log/info \&quot;Checking if required schema exists\&quot;)\n  (try\n  (-&gt; (jdbc/with-db-connection [conn {:datasource datasource}]\n                           (jdbc/query conn [(str \&quot;select count(*) from information_schema.tables where table_name='tbl_sms_tracker'\&quot;)]))\n      first :count pos?)\n  (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(defn apply-schema-migration\n  \&quot;Apply the schema to the database\&quot;\n  []\n  (try\n  (when (not (db-schema-migrated?))\n    (app-schema))\n  (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(defn make_message\n  [map]\n  (try\n    (delete-sub! {:subscriber_fk (:subscriber_fk map)})\n    (log/info (str \&quot;Make message - \&quot; (str map)))\n    (generate-string {:session-id (:subscriber_fk map)\n                      :request-id (:subscriber_fk map)\n                      :msisdn (hfns/delocalize_msisdn (:subscriber_fk map))\n                      :message (hfns/get-message (eval (symbol (str \&quot;config/message_\&quot; (str (:message_type map))))) {:amount (:amount map) :message-type (:message_type map) :subscriber-fk (:subscriber_fk map)})\n                      :flash? false\n                      :from config/from})\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e)))\n    )\n  )&quot; &quot;(defn get_subs\n  []\n  (log/info \&quot;Getting subs\&quot;)\n  (try\n    (get-subs {:limit config/message_limit} {:as-arrays? false :row-fn make_message})\n    (catch Exception e (str \&quot;caught exception: \&quot; (.getMessage e))))\n  )&quot; &quot;(get_subs)&quot;], :remote []}}</component>
+  <component name="RunManager" selected="Clojure REPL.REPL for bc_module_kenya">
+    <configuration default="false" name="db_conn" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="bc_module_kenya" />
+      <setting name="path" value="$PROJECT_DIR$/src/bc_module_kenya/db_conn.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/bc_module_kenya" />
+      <setting name="repl" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="REPL for bc_module_kenya" type="ClojureREPL" factoryName="Local" temporary="true">
+      <setting name="replType" value="1" />
+      <module name="bc_module_kenya" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local">
+      <setting name="replType" value="1" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="" />
+      <setting name="repl" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="erlFlags" value="" />
+      <option name="moduleAndFunction" value="" />
+      <option name="params" value="" />
+      <option name="useTestCodePath" value="false" />
+      <option name="workDirectory" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <module />
+      <option name="functionNames">
+        <set />
+      </option>
+      <option name="kind" value="MODULE" />
+      <option name="moduleNames">
+        <set />
+      </option>
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="bc_module_kenya" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="RebarEunitRunConfigurationType" factoryName="Erlang Rebar Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="command" value="eunit" />
+      <option name="skipDependencies" value="true" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="awselasticbeanstalk-deploy" factoryName="AWS ElasticBeanstalk Deployment">
+      <method />
+    </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Clojure Application.db_conn" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure REPL.REPL for bc_module_kenya" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Clojure REPL.REPL for bc_module_kenya" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22fd6b2d-03cc-4330-89d1-f9d3430d17d1" name="Default" comment="" />
+      <created>1478761459191</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1478761459191</updated>
+      <workItem from="1478761460756" duration="18200000" />
+      <workItem from="1478845249341" duration="10395000" />
+      <workItem from="1479102925564" duration="4991000" />
+      <workItem from="1479109574072" duration="23680000" />
+      <workItem from="1479189350688" duration="13344000" />
+      <workItem from="1479283979736" duration="5734000" />
+      <workItem from="1479801606158" duration="936000" />
+      <workItem from="1480079251293" duration="116000" />
+      <workItem from="1480079409072" duration="602000" />
+      <workItem from="1480508393421" duration="22000" />
+      <workItem from="1480509235202" duration="106000" />
+      <workItem from="1480509396505" duration="238000" />
+      <workItem from="1480509780907" duration="60000" />
+      <workItem from="1480662652770" duration="14406000" />
+      <workItem from="1480923549959" duration="283000" />
+      <workItem from="1484549741497" duration="17748000" />
+      <workItem from="1484631423246" duration="16430000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="127291000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1608" y="-8" width="1616" height="916" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.435" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.141875" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.480625" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.141875" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.configurationType" implementationName="ClojureScriptRunConfiguration" />
+    <option featureType="com.intellij.configurationType" implementationName="ClojureREPL" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/config.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/config.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/db_conn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="3" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/service.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/rmq_conn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/gen_tests.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/config.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/db_conn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="3" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/service.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/rmq_conn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/gen_tests.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/db_conn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/gen_tests.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/service.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/db_conn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="130" selection-end-column="140" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/rmq_conn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/config.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/service.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/db_conn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/rmq_conn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/service.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/config.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="53" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bc_module.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/db_conn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/rmq_conn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/service.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/config.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bc_module.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/db_conn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/config.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bc_module.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/schema_create.clj" />
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/core.clj" />
+    <entry file="file://$PROJECT_DIR$/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/queries.sql" />
+    <entry file="file://$PROJECT_DIR$/bc_module.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="39" column="66" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="3634" column="10" selection-start-line="3634" selection-start-column="10" selection-end-line="3634" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sql/queries.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="112" column="20" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/config.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/db_conn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="86" column="2" selection-start-line="86" selection-start-column="2" selection-end-line="86" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/service.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/rmq_conn.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/gen_tests.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bc_module_kenya/helper_fns.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bc_module_kenya</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Leiningen: cheshire:5.6.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
