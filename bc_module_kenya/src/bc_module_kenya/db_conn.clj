@@ -37,6 +37,11 @@
 (defqueries "sql/queries.sql"
             {:connection connection})
 
+(defmacro as-db-transaction
+  [args-conn args]
+  (list 'jdbc/with-db-transaction ['tx args-conn] args)
+  )
+
 ;;Function to check if schema is there
 (defn db-schema-migrated?
   "Check if the schema has been created in database"
@@ -54,7 +59,9 @@
   []
   (try
   (when (not (db-schema-migrated?))
-    (app-schema))
+    ;;(app-schema)
+    (as-db-transaction connection (app-schema))
+    )
   (catch Exception e (str "caught exception: " (.getMessage e))))
   )
 
@@ -64,8 +71,10 @@
   (try
     ;;(delete-sub! {:subscriber_fk (:subscriber_fk map)})
     ;; How to incorporate DB transactions when using YESQL
-    (jdbc/with-db-transaction [tx connection]
-                              (delete-sub! {:subscriber_fk (:subscriber_fk map)} {:connection tx}))
+    #_(jdbc/with-db-transaction [tx connection]
+                              (delete-sub! {:subscriber_fk (:subscriber_fk map)}))
+    ;;Using macro to ensure all db calls are considered as transactions
+    (as-db-transaction connection (delete-sub! {:subscriber_fk (:subscriber_fk map)}))
     (log/info (str "Make message - " (str map)))
     (generate-string {:session-id (:subscriber_fk map)
                       :request-id (:subscriber_fk map)
@@ -81,8 +90,9 @@
   []
   (log/info "Getting subs")
   (try
-    (jdbc/with-db-transaction [tx connection]
+    #_(jdbc/with-db-transaction [tx connection]
                               (get-subs {:limit config/message_limit} {:as-arrays? false :row-fn make_message}))
+  (as-db-transaction connection (get-subs {:limit config/message_limit} {:as-arrays? false :row-fn make_message}))
     ;;(get-subs {:limit config/message_limit} {:as-arrays? false :row-fn make_message})
     (catch Exception e (str "caught exception: " (.getMessage e))))
   )
