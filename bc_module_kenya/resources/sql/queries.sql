@@ -1,3 +1,7 @@
+-- name: check-if-schema-exists
+-- Does a simple count to check if schema is available
+select count(*) from information_schema.tables where table_name='tbl_sms_tracker';
+
 -- name: app-schema
 -- Create sequence
 CREATE SEQUENCE seq_sms_tracker_request_id START 1000001;

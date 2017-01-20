@@ -35,6 +35,7 @@
     <orderEntry type="library" name="Leiningen: org.apache.httpcomponents/httpclient:4.5.2" level="project" />
     <orderEntry type="library" name="Leiningen: org.apache.httpcomponents/httpcore:4.4.5" level="project" />
     <orderEntry type="library" name="Leiningen: org.apache.httpcomponents/httpmime:4.5.2" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/clojure-contrib:1.2.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.8.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/java.jdbc:0.6.1" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/test.check:0.9.0" level="project" />
@@ -46,6 +47,7 @@
     <orderEntry type="library" name="Leiningen: org.tobereplaced/lettercase:1.0.0" level="project" />
     <orderEntry type="library" name="Leiningen: potemkin:0.4.3" level="project" />
     <orderEntry type="library" name="Leiningen: prismatic/schema:1.0.4" level="project" />
+    <orderEntry type="library" name="Leiningen: propertea:1.2.3" level="project" />
     <orderEntry type="library" name="Leiningen: riddley:0.1.12" level="project" />
     <orderEntry type="library" name="Leiningen: slingshot:0.12.2" level="project" />
     <orderEntry type="library" name="Leiningen: tigris:0.1.1" level="project" />

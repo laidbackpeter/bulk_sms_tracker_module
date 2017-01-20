@@ -8,7 +8,7 @@
   )
 
 ;;Required vectors - contains all the compulsory values of the config
-(def config-map (read-properties "C:\\Users\\pmuchina.MO-DE\\Desktop\\projects\\clojure\\bc_module_kenya\\bc_module.config" :parse-int [:connection-timeout :validation-timeout :idle-timeout :max-lifetime :minimum-idle :maximum-pool-size :queue_port :start_time :stop_time :timezone :message_limit :country_code :poll-interval] :required [:db-name :db-ip :db-username :db-password :db-port :poll-interval :channel :timezone :from :queue_host :name]))
+(def config-map (read-properties "C:\\Users\\pmuchina.MO-DE\\Desktop\\projects\\clojure\\bc_module_kenya\\bc_module.config" :parse-int [:connection-timeout :validation-timeout :idle-timeout :max-lifetime :minimum-idle :maximum-pool-size :queue_port :start_time :stop_time :timezone :message_limit :country_code :poll-interval] :required [:db-name :db-ip :db-username :db-password :db-port :poll-interval :channel :timezone :from :queue_host]))
 
 ;;(validate-config)
 (log/info config-map)

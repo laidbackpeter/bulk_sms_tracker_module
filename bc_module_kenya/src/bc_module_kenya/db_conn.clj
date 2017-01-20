@@ -32,10 +32,10 @@
 (def datasource
   (make-datasource datasource-options))
 
-(def conn {:datasource datasource})
+(def connection {:datasource datasource})
 
 (defqueries "sql/queries.sql"
-            {:connection conn})
+            {:connection connection})
 
 ;;Function to check if schema is there
 (defn db-schema-migrated?
@@ -43,9 +43,7 @@
   []
   (log/info "Checking if required schema exists")
   (try
-  (-> (jdbc/with-db-connection [conn {:datasource datasource}]
-                           (jdbc/query conn [(str "select count(*) from information_schema.tables where table_name='tbl_sms_tracker'")]))
-      first :count pos?)
+    (pos? (:count (first (check-if-schema-exists))))
   (catch Exception e (str "caught exception: " (.getMessage e))))
   )
 
@@ -60,11 +58,17 @@
   (catch Exception e (str "caught exception: " (.getMessage e))))
   )
 
+(jdbc/with-db-transaction [tx connection]
+                            (delete-sub! {:subscriber_fk (:subscriber_fk map)} {:connection tx}))
+
 ;;(apply-schema-migration)
 (defn make_message
   [map]
   (try
-    (delete-sub! {:subscriber_fk (:subscriber_fk map)})
+    ;;(delete-sub! {:subscriber_fk (:subscriber_fk map)})
+    ;; How to incorporate DB transactions when using YESQL
+    (jdbc/with-db-transaction [tx connection]
+                              (delete-sub! {:subscriber_fk (:subscriber_fk map)} {:connection tx}))
     (log/info (str "Make message - " (str map)))
     (generate-string {:session-id (:subscriber_fk map)
                       :request-id (:subscriber_fk map)
