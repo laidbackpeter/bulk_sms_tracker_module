@@ -58,9 +58,6 @@
   (catch Exception e (str "caught exception: " (.getMessage e))))
   )
 
-(jdbc/with-db-transaction [tx connection]
-                            (delete-sub! {:subscriber_fk (:subscriber_fk map)} {:connection tx}))
-
 ;;(apply-schema-migration)
 (defn make_message
   [map]
@@ -84,11 +81,12 @@
   []
   (log/info "Getting subs")
   (try
-    (get-subs {:limit config/message_limit} {:as-arrays? false :row-fn make_message})
+    (jdbc/with-db-transaction [tx connection]
+                              (get-subs {:limit config/message_limit} {:as-arrays? false :row-fn make_message}))
+    ;;(get-subs {:limit config/message_limit} {:as-arrays? false :row-fn make_message})
     (catch Exception e (str "caught exception: " (.getMessage e))))
   )
 
 ;;(get_subs)
-
 
 ;;(def message (generate-string {:session-id 1235 :request-id 123 :msisdn 123 :message "Hello my old friend" :flash? false :from "Airtel"}))
